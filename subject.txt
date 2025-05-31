@@ -1,0 +1,36 @@
+Exercice 1 : Créer un processus fils
+
+Écris un programme qui utilise fork() pour créer un processus fils.
+Dans le père, affiche "Je suis le père", et dans le fils, affiche "Je suis le fils".
+Le père attend la fin du fils avec wait().
+
+
+------------------------------------------------------------------------------------------------------
+Exercice 2 : Utiliser sleep
+
+Crée un processus fils.
+Dans le fils, utilise sleep(2) pour attendre 2 secondes, puis affiche un message.
+Dans le père, affiche un message juste après la création du fils.
+
+
+------------------------------------------------------------------------------------------------------
+Exercice 3 : Afficher les PID
+
+Dans le père et le fils, affiche leur PID avec getpid() et le PID du père avec getppid().
+
+
+------------------------------------------------------------------------------------------------------
+Exercice 4 : Passer une valeur du père au fils avec pipe()
+
+Crée un tube de communication (pipe()).
+Le père écrit un message dans le tube.
+Le fils lit ce message et l’affiche.
+
+
+------------------------------------------------------------------------------------------------------
+Exercice 5 : Créer plusieurs processus fils
+
+Écris un programme qui crée deux processus fils avec fork().
+Chaque fils affiche son numéro et dort un temps différent avec sleep().
+Le père attend la fin des deux fils avec wait().
+
