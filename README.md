@@ -19,8 +19,6 @@ Ce dépôt contient mes travaux pratiques et projets en **programmation système
 
 **Walid Chihab**
 
-
-
 ## 📂 Structure du dépôt
 📁 Programmation_systeme/
 ├── 📁 01-processus/
@@ -34,5 +32,6 @@ Ce dépôt contient mes travaux pratiques et projets en **programmation système
 │ ├── 📄 signal-simple.c
 │ └── 📄 kill-demo.c
 └── 📁 04-projets/
-└── 📁 mini-shell/
-└── 📄 shell.c
+     └── 📁 mini-shell/
+          └── 📄 shell.c
+
