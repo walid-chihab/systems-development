@@ -22,20 +22,17 @@ Ce dépôt contient mes travaux pratiques et projets en **programmation système
 
 
 ## 📂 Structure du dépôt
-Programmation_systeme/
-│
-├── 01-processus/ # Création et gestion de processus
-│ ├── fork-simple.c # Création basique avec fork()
-│ ├── fork-wait.c # Attente de la fin du fils
-│ └── fork-exec.c # Lancement d'un autre programme
-│
-├── 02-communication/ # Communication inter-processus
-│ ├── pipe-simple.c # Tube de communication
-│ └── pipe-pere-fils.c # Dialogue père-fils
-│
-├── 03-signaux/ # Gestion des signaux
-│ ├── signal-simple.c # Attraper un signal
-│ └── kill-demo.c # Envoyer un signal
-│
-└── 04-projets/ # Projets complets
-└── mini-shell/ # Mini interpréteur de commandes
+📁 Programmation_systeme/
+├── 📁 01-processus/
+│ ├── 📄 fork-simple.c
+│ ├── 📄 fork-wait.c
+│ └── 📄 fork-exec.c
+├── 📁 02-communication/
+│ ├── 📄 pipe-simple.c
+│ └── 📄 pipe-pere-fils.c
+├── 📁 03-signaux/
+│ ├── 📄 signal-simple.c
+│ └── 📄 kill-demo.c
+└── 📁 04-projets/
+└── 📁 mini-shell/
+└── 📄 shell.c
