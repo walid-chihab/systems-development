@@ -19,19 +19,18 @@ Ce dépôt contient mes travaux pratiques et projets en **programmation système
 
 **Walid Chihab**
 
-## 📂 Structure du dépôt
-📁 Programmation_systeme/
-├── 📁 01-processus/
-│ ├── 📄 fork-simple.c
-│ ├── 📄 fork-wait.c
-│ └── 📄 fork-exec.c
-├── 📁 02-communication/
-│ ├── 📄 pipe-simple.c
-│ └── 📄 pipe-pere-fils.c
-├── 📁 03-signaux/
-│ ├── 📄 signal-simple.c
-│ └── 📄 kill-demo.c
-└── 📁 04-projets/
-     └── 📁 mini-shell/
-          └── 📄 shell.c
+Programmation_systeme/
+├── 📁 01-processus/           # Gestion des processus (fork, wait, exec)
+│   ├── 📄 fork-simple.c       ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+│   ├── 📄 fork-wait.c
+│   └── 📄 fork-exec.c
+├── 📁 02-communication/       # IPC (Inter-Process Communication)
+│   ├── 📄 pipe-simple.c       ![Status](https://img.shields.io/badge/Status-In--Progress-orange?style=flat-square)
+│   └── 📄 pipe-pere-fils.c
+├── 📁 03-signaux/             # Signaux et interruptions système
+│   ├── 📄 signal-simple.c
+│   └── 📄 kill-demo.c
+└── 📁 04-projets/             # Projets de synthèse
+    └── 📁 mini-shell/         ![Project](https://img.shields.io/badge/Project-Mini--Shell-blueviolet?style=for-the-badge)
+        └── 📄 shell.c
 
