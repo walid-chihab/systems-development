@@ -16,12 +16,10 @@ int main() {
         // code exécuté par le processus fils
         printf("Je suis le fils\n");
     }
-    else {
-        // code exécuté par le père
-        printf("Je suis le père\n");
-
+    else { 
         // le père attend la fin du fils pour éviter zombie
         wait(NULL);
+        printf("Le fils a terminé\n");
     }
 
     return 0;
