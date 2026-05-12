@@ -1,0 +1,9 @@
+# Ignore build and temporary files
+*.o
+*.exe
+*.out
+*.obj
+*.log
+__pycache__/
+*.pyc
+.DS_Store

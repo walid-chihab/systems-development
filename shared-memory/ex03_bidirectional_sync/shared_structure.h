@@ -1,0 +1,2 @@
+/* shared_structure.h */
+
