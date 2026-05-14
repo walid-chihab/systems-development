@@ -17,8 +17,7 @@ int main() {
 
     // PÈRE écrit dans le pipe, 
     if (pid > 0) {
-        //  PÈRE (écrit)
-
+        // PÈRE (écrit)
         close(fd[0]); // ne lit pas 
 
         // message à envoyer au fils
