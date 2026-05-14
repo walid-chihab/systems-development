@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🖥️ Programmation Système sous Linux en C
 
 [![C](https://img.shields.io/badge/Language-C-blue.svg?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
@@ -72,5 +71,3 @@ Ce dépôt contient mes travaux pratiques et projets en **programmation système
 └── 📁 04-projets/
      └── 📁 mini-shell/
           └── 📄 shell.c
-
->>>>>>> a1ea2be (ex2)
