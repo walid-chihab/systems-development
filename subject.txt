@@ -24,7 +24,7 @@ Exercice 4 : Passer une valeur du père au fils avec pipe()
 
 Crée un tube de communication (pipe()).
 Le père écrit un message dans le tube.
-Le fils lit ce message et l’affiche.
+Le fils lit ce message et l’affiche. 
 
 
 ------------------------------------------------------------------------------------------------------
