@@ -10,7 +10,7 @@ int main() {
 
     // Création du premier fils
     pid1 = fork();
-    if (pid1 < 0) {
+c    if (pid1 < 0) {
         perror("Erreur fork1");
         // En cas d'erreur de fork, on affiche un message et on termine le programme
         exit(1);
