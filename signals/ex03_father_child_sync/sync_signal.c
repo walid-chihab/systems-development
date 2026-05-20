@@ -1,2 +1,1 @@
-/* sync_signal.c */
 
