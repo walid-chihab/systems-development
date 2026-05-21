@@ -81,10 +81,5 @@ int main()
 
 
     }
-
-    /*
-    nous avons pas traiter que le fils qui va cree premierement  ca sera  
-    depende de l'ordonnancement du systeme d'exploitation et de la rapidite d'execution de chaque processus
-    */
     return 0;
 }
