@@ -14,7 +14,7 @@ int main() {
     int shmid = shmget(key ,1024, 0666);
 
     //attacher la memoire au processus p2
-    char msg* = (char *) shmat(shmid , NULL , 0) ;
+    char *msg = (char *) shmat(shmid , NULL , 0) ;
 
     //afficher le message recu 
     printf("p2 a recu : %s\n " ,msg);
